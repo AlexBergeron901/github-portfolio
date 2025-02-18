@@ -1,0 +1,103 @@
+.parallax-header{
+    background: #000;
+    background: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.8)
+    ),
+    url(image/pexels-felixmittermeier-956999.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content{
+    padding: 200px 0 200px 0;
+}
+
+.content{
+    margin-top: -80px;
+    background: #fff;
+    box-shadow: 0 0 20px -6px rgba(0,0,0,0.2);
+}
+
+.content .left{
+    padding-top: 20px;
+}
+
+.content .right{
+    padding: 0;
+}
+
+.content .bottom{
+    background: #dc3545;
+    padding: 20px;
+}
+
+.card-color{
+    background-color: lightgray;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    margin: 2%;
+}
+h1{
+    text-align: center; 
+    padding: 2%;
+}
+
+
+
+
+.timeline{
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+}
+.timeline-component{
+    margin: 0 20px 20px 20px;
+}
+.timeline-component-bg{
+    padding: 1.5em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.timeline-date{
+    color: #000;
+}
+.timeline-right{
+    text-align: right;
+}
+.timeline-middle{
+    position: relative;
+    background-color: lightgray;
+}
+.timeline-point{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: lightgray;
+    border-radius: 50%;
+}
+.timeline-point-bottom{
+    top: initial;
+    bottom: 0;
+}
+.timeline-header{
+    margin: 0;
+    font-size: 1.15;
+    font-weight: bold;
+    color: #000;
+}
+.timeline-p{
+    line-height: 1.5;
+    color: #000;
+}
